@@ -1,0 +1,31 @@
+# Dotfiles
+
+This repo is meant for all things configured with dotfiles in Linux.
+
+Header 1 | Header 2 | Header 3
+---------------|----------|---------
+Value 1  | Value 2  | Value 3 
+Value 1  | Value 2  | Value 3 
+Value 1  | Value 2  | Value 3 
+Value 1  | Value 2  | Value 3 
+Value 1  | Value 2  | Value 3 
+Value 1  | Value 2  | Value 3 
+Value 1  | Value 2  | Value 3 
+
+## Prerequisites
+
+Install the following programs:
+- git
+- stow
+
+## Set up
+
+Call `./scripts/setup.sh`
+In case stow throws an error that some files already exist, make sure the already existing files do not contain important info and then delete them.
+
+## Tear down
+
+**!CAREFUL!**
+This can brick certain programs, and is meant for a hard reset.
+
+Call `./scripts/setup.sh`

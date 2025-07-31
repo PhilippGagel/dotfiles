@@ -1,0 +1,7 @@
+require('project_nvim').setup({
+    ignore_lsp = { 'harper_ls' },
+})
+
+vim.keymap.set('n', '<Leader>P', function()
+    require('telescope').extensions.projects.projects {}
+end)
