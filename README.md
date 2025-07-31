@@ -2,16 +2,6 @@
 
 This repo is meant for all things configured with dotfiles in Linux.
 
-Header 1 | Header 2 | Header 3
----------------|----------|---------
-Value 1  | Value 2  | Value 3 
-Value 1  | Value 2  | Value 3 
-Value 1  | Value 2  | Value 3 
-Value 1  | Value 2  | Value 3 
-Value 1  | Value 2  | Value 3 
-Value 1  | Value 2  | Value 3 
-Value 1  | Value 2  | Value 3 
-
 ## Prerequisites
 
 Install the following programs:
