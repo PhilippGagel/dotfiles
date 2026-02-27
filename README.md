@@ -1,6 +1,11 @@
 # Dotfiles
 
 This repo is meant for all things configured with dotfiles in Linux.
+Clone this into your home directory.
+It is recommended to clone it as a hidden directory as such:
+```bash
+git clone https://github.com/PhilippGagel/dotfiles/ ~/.dotfiles
+```
 
 ## Prerequisites
 
