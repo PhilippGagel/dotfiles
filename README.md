@@ -10,7 +10,7 @@ Install the following programs:
 
 ## Set up
 
-Call `./scripts/setup.sh`
+Call `./setup.sh`
 In case stow throws an error that some files already exist, make sure the already existing files do not contain important info and then delete them.
 
 ## Tear down
@@ -18,4 +18,4 @@ In case stow throws an error that some files already exist, make sure the alread
 **!CAREFUL!**
 This can brick certain programs, and is meant for a hard reset.
 
-Call `./scripts/setup.sh`
+Call `./teardown.sh`
