@@ -12,7 +12,6 @@ return {
             vim.keymap.set('n', '<Leader>b', builtin.buffers, { desc = "Telescope open buffers" })
 
             -- extensions
-            telescope.load_extension('projects')
             telescope.load_extension('dap')
         end
     },
