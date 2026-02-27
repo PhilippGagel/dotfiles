@@ -7,4 +7,4 @@ if [ ! $(which stow) ]; then
     sudo apt install stow
 fi
 
-stow --dir=~/.dotfiles --target=~/
+stow --dotfiles .
